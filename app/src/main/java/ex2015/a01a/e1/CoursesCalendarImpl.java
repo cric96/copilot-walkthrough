@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class CoursesCalendarImpl implements CoursesCalendar {
-
     @Override
     public List<Integer> possibleSlots() {
         throw new UnsupportedOperationException("Not supported yet.");
@@ -17,7 +16,7 @@ public class CoursesCalendarImpl implements CoursesCalendar {
     }
 
     @Override
-    public Set<Pair<Integer, String>> dayRoomSlots(Day d, Room r) {
+    public Set<Pair<Integer, String>> dayRoomSlots(Day day, Room room) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
@@ -25,5 +24,4 @@ public class CoursesCalendarImpl implements CoursesCalendar {
     public Map<Pair<Day, Room>, Set<Integer>> courseSlots(String course) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-    
 }
