@@ -11,17 +11,17 @@ public class CoursesCalendarImpl implements CoursesCalendar {
     }
 
     @Override
-    public void bookRoom(Day day, Room room, int start, int duration, String course) {
+    public void bookRoom(final Day day, final Room room, final int start, final int duration, final String course) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public Set<Pair<Integer, String>> dayRoomSlots(Day day, Room room) {
+    public Set<Pair<Integer, String>> dayRoomSlots(final Day day, final Room room) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public Map<Pair<Day, Room>, Set<Integer>> courseSlots(String course) {
+    public Map<Pair<Day, Room>, Set<Integer>> courseSlots(final String course) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 }

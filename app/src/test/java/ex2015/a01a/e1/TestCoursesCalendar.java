@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static ex2015.a01a.e1.CoursesCalendar.Day.*;
 import static ex2015.a01a.e1.CoursesCalendar.Room.*;
 import org.junit.jupiter.api.Test;
-import ex2015.a01a.e1.CoursesCalendarImpl;
 import java.util.*;
 
 public class TestCoursesCalendar {
